@@ -22,10 +22,10 @@ $MAIL_NAME = getenv('SMTP_FROM_NAME') ?: 'LCR DIGITAL';
 $MAIL_TO   = getenv('SMTP_TO_EMAIL') ?: $SMTP_USER;
 
 /* =========================
-   TURNSTILE
+   GOOGLE RECAPTCHA
 ========================= */
-$TURNSTILE_SITE_KEY   = getenv('CF_TURNSTILE_SITE_KEY');
-$TURNSTILE_SECRET_KEY = getenv('CF_TURNSTILE_SECRET_KEY');
+$RECAPTCHA_SITE_KEY   = getenv('RECAPTCHA_SITE_KEY');
+$RECAPTCHA_SECRET_KEY = getenv('RECAPTCHA_SECRET_KEY');
 
 /* =========================
    FORM STATE
@@ -36,33 +36,20 @@ $form_error = '';
 $first_name = $last_name = $email = $phone = $subject = $message = '';
 
 /* =========================
-   VERIFY TURNSTILE
+   VERIFY RECAPTCHA
 ========================= */
-function verify_turnstile(string $secret, string $token): bool
+function verify_recaptcha(string $secret, string $token): bool
 {
     if ($secret === '' || $token === '') {
         return false;
     }
 
-    $payload = http_build_query([
-        'secret' => $secret,
-        'response' => $token,
-        'remoteip' => $_SERVER['REMOTE_ADDR'] ?? ''
-    ]);
-
-    $context = stream_context_create([
-        'http' => [
-            'method'  => 'POST',
-            'header'  => "Content-Type: application/x-www-form-urlencoded\r\n",
-            'content' => $payload,
-            'timeout' => 5
-        ]
-    ]);
-
     $response = @file_get_contents(
-        'https://challenges.cloudflare.com/turnstile/v0/siteverify',
-        false,
-        $context
+        'https://www.google.com/recaptcha/api/siteverify?' . http_build_query([
+            'secret'   => $secret,
+            'response' => $token,
+            'remoteip' => $_SERVER['REMOTE_ADDR'] ?? ''
+        ])
     );
 
     if ($response === false) {
@@ -83,14 +70,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $phone      = trim($_POST['phone'] ?? '');
     $subject    = trim($_POST['subject'] ?? '');
     $message    = trim($_POST['message'] ?? '');
-    $token      = $_POST['cf-turnstile-response'] ?? '';
+    $recaptcha  = $_POST['g-recaptcha-response'] ?? '';
 
     if (!$first_name || !$last_name || !$email || !$subject || !$message) {
         $form_error = "Merci de remplir tous les champs obligatoires.";
     } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $form_error = "Adresse e-mail invalide.";
-    } elseif (!verify_turnstile($TURNSTILE_SECRET_KEY, $token)) {
-        $form_error = "La vérification de sécurité a échoué.";
+    } elseif (!verify_recaptcha($RECAPTCHA_SECRET_KEY, $recaptcha)) {
+        $form_error = "Veuillez confirmer que vous n’êtes pas un robot.";
     } else {
         try {
             $mail = new PHPMailer(true);
@@ -134,10 +121,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <?php require __DIR__ . "/assets/components/head.php"; ?>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 </head>
 <body data-city="<?= e($city) ?>" data-city-slug="<?= e($city_slug) ?>">
     
@@ -262,11 +252,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                     <label for="Message">Message</label>
                                     <textarea name="message" id="message" rows="4" placeholder="Décrivez votre besoin" required></textarea>
                                 </div>
-
-                                <div class="cf-turnstile"
-     data-sitekey="0x4AAAAAACLXBkPf7rmEgpVL"
-     data-theme="light">
+<div class="g-recaptcha"
+     data-sitekey="<?= htmlspecialchars($RECAPTCHA_SITE_KEY) ?>">
 </div>
+
 
  <?php if ($form_success): ?>
                 <div class="alert alert-success mb-3">
