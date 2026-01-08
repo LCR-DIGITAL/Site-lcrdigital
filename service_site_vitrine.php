@@ -76,7 +76,7 @@ $page_description = "LCR DIGITAL vous accompagne dans la création de site vitri
                                 </div>
                                 <div class="col">
                                     <div class="image-container animate-box animated animate__animated" data-animate="animate__fadeIn">
-                                        <img src="./assets/images/dummy-img-600x600.jpg" alt="" class="img-fluid">
+                                        <img src="./assets/images/vitrine.png" alt="" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
@@ -167,7 +167,7 @@ $page_description = "LCR DIGITAL vous accompagne dans la création de site vitri
                             <i class="fa-solid fa-circle"></i>
                         </div>
                         <div class="image-container chooseus-image">
-                            <img src="./assets/images/dummy-img-900x900.jpg" alt="" class="img-fluid">
+                            <img src="./assets/images/dashboard.png" alt="" class="img-fluid">
                         </div>
                         <div class="chooseus-image-footer">
                             <div class="icon-wrapper">

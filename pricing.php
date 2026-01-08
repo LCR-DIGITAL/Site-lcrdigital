@@ -212,7 +212,7 @@ $page_description = "Consultez nos tarifs pour la création de site internet, le
                             <i class="fa-solid fa-circle"></i>
                         </div>
                         <div class="image-container chooseus-image">
-                            <img src="./assets/images/dummy-img-900x900.jpg" alt="" class="img-fluid">
+                            <img src="./assets/images/dashboard.png" alt="" class="img-fluid">
                         </div>
                         <div class="chooseus-image-footer">
                             <div class="icon-wrapper">
