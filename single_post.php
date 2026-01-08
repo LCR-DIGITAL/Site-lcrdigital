@@ -96,16 +96,10 @@ $page_description = "Article de blog LCR DIGITAL sur le web, le SEO et le market
                                 <div class="d-flex flex-row align-items-center justify-content-between gspace-2">
                                     <h5>Partager l’article</h5>
                                     <div class="social-container">
-                                        <a href="#" class="social-item">
+                                        <a href="https://www.facebook.com/profile.php?id=61586348482305#" target="_blank" class="social-item">
                                             <i class="fa-brands fa-facebook-f"></i>
-                                        </a>
-                                        <a href="#" class="social-item">
-                                            <i class="fa-brands fa-x-twitter"></i>
-                                        </a>
-                                        <a href="#" class="social-item">
-                                            <i class="fa-brands fa-linkedin-in"></i>
-                                        </a>
-                                        <a href="#" class="social-item">
+                                        </a>                               
+                                        <a href="https://www.instagram.com/lcr__digital/" target="_blank" class="social-item">
                                             <i class="fa-brands fa-instagram"></i>
                                         </a>
                                     </div>

@@ -9,10 +9,10 @@
                     </div>
                     <p>Agence web LCR DIGITAL : creation de sites performants, visibles et pensés pour convertir.</p>
                     <div class="social-container">
-                        <a href="#" class="social-item">
+                        <a href="https://www.facebook.com/profile.php?id=61586348482305#" target="_blank" class="social-item">
                             <i class="fa-brands fa-facebook-f"></i>
                         </a>
-                        <a href="#" class="social-item">
+                        <a href="https://www.instagram.com/lcr__digital/" target="_blank" class="social-item">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
                     </div>

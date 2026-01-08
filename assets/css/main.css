@@ -535,7 +535,7 @@ ul{
 .card-featured.creative-solution{
     min-height: 400px;
     background-color: var(--secondary);
-    background-image: url('../images/dummy-img-600x600.jpg');
+    background-image: url('../images/BB3.webp');
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -557,7 +557,7 @@ ul{
     min-height: 300px;
     text-align: center;
     background-color: var(--secondary);
-    background-image: url('../images/dummy-img-600x400.jpg');
+    background-image: url('../images/BG441-e1715086371342.webp');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -610,7 +610,7 @@ ul{
     align-items: flex-end;
     text-align: end;
     background-color: var(--secondary);
-    background-image: url('../images/dummy-img-600x400.jpg');
+    background-image: url('../images/BB1-e1715088956628.webp');
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -655,7 +655,7 @@ ul{
     align-items: end;
     text-align: end;
     background-color: var(--secondary);
-    background-image: url('../images/dummy-img-600x400.jpg');
+    background-image: url('../images/BB4.webp');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -920,8 +920,8 @@ ul{
     object-position: center center;
     width: 100%;
     height: 250px;
-    opacity: 0.5;
-    filter: brightness(100%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
+    opacity: 1;
+    filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
     transition-duration: 1s;
     border-radius: 5px 5px 5px 5px;
     transition: all 1s ease;
@@ -1912,7 +1912,7 @@ textarea.error-border{
 
 .card-about .wrapper{
     background-color: var(--primary);
-    background-image: url('../images/dummy-img-600x400.jpg');
+    background-image: url('../images/BG441-e1715086371342.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

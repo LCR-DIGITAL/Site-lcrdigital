@@ -289,222 +289,243 @@ $page_description = "LCR DIGITAL, votre agence web" . city_phrase(" à ") . ", s
         </div>
 
         
-        <div class="section portfolio-banner">
-            <div class="hero-container">
-                <div class="d-flex flex-column gspace-4 position-relative z-2">
-                    <div class="d-flex flex-column gspace-2 align-items-center text-center">
-                        <h6 class="accent-color">Réalisations</h6>
-                        <h3>Des projets qui transforment</h3>
-                        <p>Une sélection de réalisations et d’accompagnements pensés pour la performance et la visibilité.</p>
-                    </div>
-                    <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1 grid-spacer-3 grid-spacer-xl-5">
-                        <div class="col">
-                            <div class="portfolio-layout animate-box animated fast animate__animated" data-animate="animate__fadeInUp">
-                                <div class="portfolio-header">
-                                    <div class="portfolio-image-wrapper">
-                                        <div class="image-container portfolio-image">
-                                            <img src="./assets/images/dummy-img-600x400.jpg" alt="" class="img-fluid">
-                                        </div>
-                                    </div>
-                                    <h4 class="number">01</h4>
-                                </div>
-                                <div class="portfolio-content">
-                                    <h5>Site vitrine pour cabinet médical</h5>
-                                    <div class="d-flex flex-row gspace-4">
-                                        <div class="portfolio-meta">
-                                            <i class="fa-solid fa-users"></i>
-                                            <div class="d-grid">
-                                                <span class="title">Client</span>
-                                                <p>Cabinet Saint-Sever</p>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio-meta">
-                                            <i class="fa-solid fa-calendar-days"></i>
-                                            <div class="d-grid">
-                                                <span class="title">Date</span>
-                                                <p>15 juin 2024</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="portfolio-description">
-                                        <p>
-                                            Site rapide avec prise de rendez-vous et SEO local pour gagner en visibilité.
-                                        </p>
-                                        <div class="portfolio-btn-wrapper">
-                                            <div>
-                                                <div class="portfolio-btn">
-                                                    <a href="/projet-detail-agence-digitale-<?= e($city_slug) ?>" class="button"><i class="fa-solid fa-arrow-right"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="portfolio-layout animate-box animated animate__animated" data-animate="animate__fadeInUp">
-                                <div class="portfolio-header">
-                                    <div class="portfolio-image-wrapper">
-                                        <div class="image-container portfolio-image">
-                                            <img src="./assets/images/dummy-img-600x400.jpg" alt="" class="img-fluid">
-                                        </div>
-                                    </div>
-                                    <h4 class="number">02</h4>
-                                </div>
-                                <div class="portfolio-content">
-                                    <h5>Refonte e-commerce mode</h5>
-                                    <div class="d-flex flex-row gspace-4">
-                                        <div class="portfolio-meta">
-                                            <i class="fa-solid fa-users"></i>
-                                            <div class="d-grid">
-                                                <span class="title">Client</span>
-                                                <p>Atelier Marais</p>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio-meta">
-                                            <i class="fa-solid fa-calendar-days"></i>
-                                            <div class="d-grid">
-                                                <span class="title">Date</span>
-                                                <p>02 mai 2024</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="portfolio-description">
-                                        <p>
-                                            Tunnel d’achat optimisé, fiche produit claire et parcours mobile fluide.
-                                        </p>
-                                        <div class="portfolio-btn-wrapper">
-                                            <div>
-                                                <div class="portfolio-btn">
-                                                    <a href="/projet-detail-agence-digitale-<?= e($city_slug) ?>" class="button"><i class="fa-solid fa-arrow-right"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="portfolio-layout animate-box animated slow animate__animated" data-animate="animate__fadeInUp">
-                                <div class="portfolio-header">
-                                    <div class="portfolio-image-wrapper">
-                                        <div class="image-container portfolio-image">
-                                            <img src="./assets/images/dummy-img-600x400.jpg" alt="" class="img-fluid">
-                                        </div>
-                                    </div>
-                                    <h4 class="number">03</h4>
-                                </div>
-                                <div class="portfolio-content">
-                                    <h5>Identité visuelle & site marque artisanale</h5>
-                                    <div class="d-flex flex-row gspace-4">
-                                        <div class="portfolio-meta">
-                                            <i class="fa-solid fa-users"></i>
-                                            <div class="d-grid">
-                                                <span class="title">Client</span>
-                                                <p>Maison K</p>
-                                            </div>
-                                        </div>
-                                        <div class="portfolio-meta">
-                                            <i class="fa-solid fa-calendar-days"></i>
-                                            <div class="d-grid">
-                                                <span class="title">Date</span>
-                                                <p>20 avril 2024</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="portfolio-description">
-                                        <p>
-                                            Direction artistique, storytelling et pages produits optimisées.
-                                        </p>
-                                        <div class="portfolio-btn-wrapper">
-                                            <div>
-                                                <div class="portfolio-btn">
-                                                    <a href="/projet-detail-agence-digitale-<?= e($city_slug) ?>" class="button"><i class="fa-solid fa-arrow-right"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+       <div class="section portfolio-banner">
+    <div class="hero-container">
+        <div class="d-flex flex-column gspace-4 position-relative z-2">
+            <div class="d-flex flex-column gspace-2 align-items-center text-center">
+                <h6 class="accent-color">Réalisations</h6>
+                <h3>Des projets qui transforment</h3>
+                <p>
+                    Une sélection de réalisations et d’accompagnements pensés pour la performance et la visibilité.
+                </p>
             </div>
-        </div>
+            <div class="row row-cols-xl-2 row-cols-md-2 row-cols-1 
+                        grid-spacer-3 grid-spacer-xl-5 justify-content-center">
+              <div class="col-xl-5 col-lg-6 col-md-10">
 
-        
-        <div class="section">
-            <div class="hero-container">
-                <div class="row row-cols-xl-2 row-cols-1 grid-spacer-2">
-                    <div class="col col-xl-4">
-                        <div class="d-flex flex-column flex-md-row flex-xl-column gspace-2">
-                            <div class="card card-featured creative-solution animate-box animated animate__animated" data-animate="animate__fadeInLeft">
-                                <h4>Stratégie créative</h4>
-                                <p>Positionnement, message et design pour capter l’attention et déclencher l’action.</p>
-                                <div>
-                                    <a href="<?= e(route_with_city("agence-digitale", $city_slug)) ?>" class="btn btn-accent-2">
-                                        <div class="d-flex flex-row align-items-center gspace-1">
-                                            <span>En savoir plus</span>
-                                            <i class="fa-solid fa-arrow-right"></i>
-                                        </div>
-                                    </a>
+                    <div class="portfolio-layout animate-box animated fast animate__animated"
+                         data-animate="animate__fadeInUp">
+
+                        <div class="portfolio-header">
+                            <div class="portfolio-image-wrapper">
+                                <div class="image-container portfolio-image">
+                                    <img src="./assets/images/lapouge-paysage.png" alt="" class="img-fluid">
                                 </div>
                             </div>
-
-                            <div class="card card-featured bussines-avaliable  animate-box animated animate__animated" data-animate="animate__fadeInDown">
-                                <div class="d-flex flex-row gspace-1 align-items-center">
-                                    <i class="fa-solid fa-check"></i>
-                                    <h5>Accessible à toutes les entreprises</h5>
-                                </div>
-                                <p>Des offres adaptées aux TPE, PME et indépendants avec un accompagnement clair.</p>
-                            </div>
+                            <h4 class="number">01</h4>
                         </div>
-                    </div>
-                    <div class="col col-xl-8">
-                        <div class="d-flex flex-column gspace-2">
-                            <div class="d-flex flex-md-row flex-column gspace-2">
-                                <div class="card card-featured client-rating animate-box animated animate__animated" data-animate="animate__fadeIn">
-                                    <span class="rating">4.8</span>
-                                    <h5>Client Ratings</h5>
-                                    <div class="stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
+
+                        <div class="portfolio-content">
+                            <h5>Site vitrine pour un paysagiste</h5>
+
+                            <div class="d-flex flex-row gspace-4">
+                                <div class="portfolio-meta">
+                                    <i class="fa-solid fa-users"></i>
+                                    <div class="d-grid">
+                                        <span class="title">Client</span>
+                                        <p>Lapouge Paysage</p>
                                     </div>
-                                    <p>Basé sur la satisfaction client et la qualité de livraison.</p>
                                 </div>
-                                <div class="card card-featured solid-development  animate-box animated animate__animated" data-animate="animate__fadeInUp">
-                                    <h4>Développement solide</h4>
-                                    <p>Sites fiables, rapides et sécurisés, prêts pour le SEO et la croissance.</p>
-                                    <div>
-                                        <a href="<?= e(route_with_city("services-web", $city_slug)) ?>" class="btn btn-accent-2">
-                                            <div class="d-flex flex-row align-items-center gspace-1">
-                                                <span>En savoir plus</span>
-                                                <i class="fa-solid fa-arrow-right"></i>
-                                            </div>
+                                <div class="portfolio-meta">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <div class="d-grid">
+                                        <span class="title">Date</span>
+                                        <p>Janvier 2026</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="portfolio-description">
+                                <p>
+                                    Site vitrine permettant à l’entreprise Lapouge Paysage de présenter ses services.
+                                </p>
+                                <div class="portfolio-btn-wrapper">
+                                    <div class="portfolio-btn">
+                                        <a href="https://lapougepaysage.fr" target="_blank" class="button">
+                                            <i class="fa-solid fa-arrow-right"></i>
                                         </a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="card card-featured experience animate-box animated animate__animated" data-animate="animate__fadeInRight">
-                                <h4>Expérience fluide</h4>
-                                <p>Un parcours client clair, de la prise de contact à la mise en ligne.</p>
-                                <div>
-                                        <a href="<?= e(route_with_city("services-web", $city_slug)) ?>" class="btn btn-accent-2">
-                                        <div class="d-flex flex-row align-items-center gspace-1">
-                                            <span>En savoir plus</span>
+                        </div>
+
+                    </div>
+                </div>
+              <div class="col-xl-5 col-lg-6 col-md-10">
+
+                    <div class="portfolio-layout animate-box animated animate__animated"
+                         data-animate="animate__fadeInUp">
+
+                        <div class="portfolio-header">
+                            <div class="portfolio-image-wrapper">
+                                <div class="image-container portfolio-image">
+                                    <img src="./assets/images/lcr-digital.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                            <h4 class="number">02</h4>
+                        </div>
+
+                        <div class="portfolio-content">
+                            <h5>Sitre vitrine LCR DIGITAL</h5>
+
+                            <div class="d-flex flex-row gspace-4">
+                                <div class="portfolio-meta">
+                                    <i class="fa-solid fa-users"></i>
+                                    <div class="d-grid">
+                                        <span class="title">Client</span>
+                                        <p>LCR DIGITAL</p>
+                                    </div>
+                                </div>
+                                <div class="portfolio-meta">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <div class="d-grid">
+                                        <span class="title">Date</span>
+                                        <p>Décembre 2025</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="portfolio-description">
+                                <p>
+                                    Site vitrine permettant à l’entreprise Lapouge Paysage de présenter ses services.
+                                </p>
+                               <div class="portfolio-btn-wrapper">
+                                    <div class="portfolio-btn">
+                                        <a href="https://lcr-digital.fr" target="_blank" class="button">
                                             <i class="fa-solid fa-arrow-right"></i>
-                                        </div>
-                                    </a>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
+
             </div>
+            <p class="text-center mt-4 opacity-75">
+                Ces projets ne sont qu’un aperçu : de nombreuses autres réalisations ont vu le jour,
+                mais toutes ne peuvent être présentées ici.
+            </p>
+
         </div>
+    </div>
+</div>
+
+
+        
+  <div class="section">
+    <div class="hero-container">
+        <div class="row row-cols-xl-2 row-cols-1 grid-spacer-2">
+
+            <!-- COL GAUCHE -->
+            <div class="col col-xl-4">
+                <div class="d-flex flex-column flex-md-row flex-xl-column gspace-2">
+
+                    <!-- STRATÉGIE DIGITALE -->
+                    <div class="card card-featured creative-solution animate-box animated animate__animated"
+                         data-animate="animate__fadeInLeft">
+                        <h4>Stratégie digitale</h4>
+                        <p>
+                            Positionnement, message et structure pour concevoir
+                            des sites clairs, efficaces et orientés conversion.
+                        </p>
+                        <div>
+                            <a href="<?= e(route_with_city("agence-digitale", $city_slug)) ?>" class="btn btn-accent-2">
+                                <div class="d-flex flex-row align-items-center gspace-1">
+                                    <span>Découvrir l’agence</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- ACCESSIBILITÉ -->
+                    <div class="card card-featured bussines-avaliable animate-box animated animate__animated"
+                         data-animate="animate__fadeInDown">
+                        <div class="d-flex flex-row gspace-1 align-items-center">
+                            <i class="fa-solid fa-check"></i>
+                            <h5>Solutions accessibles</h5>
+                        </div>
+                        <p>
+                            Des offres pensées pour les TPE, PME et indépendants,
+                            avec un accompagnement simple et transparent.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- COL DROITE -->
+            <div class="col col-xl-8">
+                <div class="d-flex flex-column gspace-2">
+
+                    <div class="d-flex flex-md-row flex-column gspace-2">
+
+                        <!-- SITE VITRINE -->
+                        <div class="card card-featured animate-box animated animate__animated"
+                             data-animate="animate__fadeIn">
+                            <h4>Création de site vitrine</h4>
+                            <p>
+                                Présentez votre activité avec un site professionnel,
+                                rapide et optimisé pour le référencement local.
+                            </p>
+                            <div>
+                                <a href="<?= e(route_with_city("creation-site-vitrine", $city_slug)) ?>" class="btn btn-accent-2">
+                                    <div class="d-flex flex-row align-items-center gspace-1">
+                                        <span>Voir l’offre</span>
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- DÉVELOPPEMENT SUR MESURE -->
+                        <div class="card card-featured solid-development animate-box animated animate__animated"
+                             data-animate="animate__fadeInUp">
+                            <h4>Développement web sur mesure</h4>
+                            <p>
+                                Des sites fiables, sécurisés et évolutifs,
+                                conçus pour accompagner votre croissance.
+                            </p>
+                            <div>
+                                <a href="<?= e(route_with_city("developpement-web-sur-mesure", $city_slug)) ?>" class="btn btn-accent-2">
+                                    <div class="d-flex flex-row align-items-center gspace-1">
+                                        <span>Découvrir le service</span>
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- ACCOMPAGNEMENT -->
+                    <div class="card card-featured experience animate-box animated animate__animated"
+                         data-animate="animate__fadeInRight">
+                        <h4>Accompagnement & suivi</h4>
+                        <p>
+                            Un suivi clair à chaque étape : conception, mise en ligne,
+                            évolutions futures et optimisation continue.
+                        </p>
+                        <div>
+                            <a href="<?= e(route_with_city("contact-agence-web", $city_slug)) ?>" class="btn btn-accent-2">
+                                <div class="d-flex flex-row align-items-center gspace-1">
+                                    <span>Discuter du projet</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
 
         
         <div class="section">
