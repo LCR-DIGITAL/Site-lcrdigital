@@ -253,7 +253,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                     <textarea name="message" id="message" rows="4" placeholder="Décrivez votre besoin" required></textarea>
                                 </div>
 <div class="g-recaptcha"
-     data-sitekey="<?= htmlspecialchars($RECAPTCHA_SITE_KEY) ?>">
+     data-sitekey="6LffnEQsAAAAAI51vEZ3QbDpkFkyna5JiY1CYU8n">
 </div>
 
 
