@@ -8,13 +8,6 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 require __DIR__ . '/vendor/autoload.php';
-require __DIR__ . "/city_bootstrap.php";
-
-/* =========================
-   META
-========================= */
-$page_title = "Contactez votre agence web" . city_phrase(" à ") . " | LCR DIGITAL";
-$page_description = "Un projet web ? Une question ? Contactez LCR DIGITAL, agence web" . city_phrase(" à ") . ", pour obtenir un devis ou échanger avec notre équipe.";
 
 /* =========================
    CONFIG SMTP HOSTINGER
@@ -286,12 +279,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <?php endif; ?>
 
                                 <button type="submit" class="btn btn-accent">Envoyer</button>
-                                <div id="successMessage" class="mt-2 success d-none">
-                                    <p><span class="fa-solid fa-check text-success"></span> Message envoyé.</p>
-                                </div>            
-                                <div id="errorMessage" class="mt-2 failed d-none">
-                                    <p><span class="fa-solid fa-times text-danger"></span> Échec de l’envoi. Réessayez.</p>
-                                </div>
+                                
                             </form>
                         </div>
                     </div>
