@@ -13,7 +13,7 @@ require __DIR__ . '/vendor/autoload.php';
    CONFIG SMTP HOSTINGER
 ========================= */
 $SMTP_HOST = getenv('SMTP_HOST');
-$SMTP_PORT = getenv('SMTP_PORT') ?: 587;
+$SMTP_PORT = getenv('SMTP_PORT') ?: 465;
 $SMTP_USER = getenv('SMTP_USER');
 $SMTP_PASS = getenv('SMTP_PASSWORD');
 
@@ -87,12 +87,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $mail = new PHPMailer(true);
 
             $mail->isSMTP();
-            $mail->Host       = $SMTP_HOST;
+            $mail->Host       = 'smtp.hostinger.com';
             $mail->SMTPAuth   = true;
-            $mail->Username   = $SMTP_USER;
+            $mail->Username   = 'contact@lcr-digital.fr';
             $mail->Password   = $SMTP_PASS;
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-            $mail->Port       = (int) $SMTP_PORT;
+            $mail->Port       = '465';
 
             $mail->CharSet = 'UTF-8';
 
