@@ -113,6 +113,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <hr>
                 <p>{$safe_message}</p>
             ";
+$mail->SMTPDebug = 2;
+$mail->Debugoutput = 'error_log';
 
             $mail->send();
 
