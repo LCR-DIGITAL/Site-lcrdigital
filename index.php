@@ -79,7 +79,7 @@ $page_description = "LCR DIGITAL, votre agence web" . city_phrase(" à ") . ", s
                                 <p class="title">ans d'expérience</p>
                             </div>
                             <div class="image-container about-img">
-                                <img src="./assets/images/dummy-img-600x400.jpg" alt="" class="img-fluid">
+                                <img src="./assets/images/about.png" alt="" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -254,9 +254,17 @@ $page_description = "LCR DIGITAL, votre agence web" . city_phrase(" à ") . ", s
                         <div class="chooseus-image-header">
                             <i class="fa-solid fa-circle"></i>
                         </div>
-                        <div class="image-container chooseus-image">
+                            <div class="image-container chooseus-image">
                             <img src="./assets/images/dashboard.png" alt="" class="img-fluid">
                         </div>
+
+                        <div class="app-availability">
+                            <span>Disponible sur :</span>
+                            <img src="./assets/images/appstore.png" alt="App Store">
+                            <img src="./assets/images/playstore.avif" alt="Google Play">
+                            <img src="./assets/images/web.png" alt="Web">
+                        </div>
+
                         <div class="chooseus-image-footer">
                             <div class="icon-wrapper">
                                 <i class="fa-regular fa-square"></i>
@@ -521,7 +529,7 @@ $page_description = "LCR DIGITAL, votre agence web" . city_phrase(" à ") . ", s
                                                 </div>
                                             </div>
                                             <p class="testimonial-content">
-                                                Grâce au site vitrine, j'ai gagné en visibilité.
+                                                "Grâce au site vitrine, j'ai gagné en visibilité.""
                                             </p>
                                             <span class="testimonial-name">Quentin</span>
                                             <span class="testimonial-title">Dirigeant</span>
@@ -535,7 +543,7 @@ $page_description = "LCR DIGITAL, votre agence web" . city_phrase(" à ") . ", s
                                                 </div>
                                             </div>
                                             <p class="testimonial-content">
-                                                L'application personnalisée m'a permis de gérer mon stock.
+                                             "L'application personnalisée m'a permis de gérer mon stock.""
                                             </p>
                                             <span class="testimonial-name">Laly</span>
                                             <span class="testimonial-title">Commerçante</span>

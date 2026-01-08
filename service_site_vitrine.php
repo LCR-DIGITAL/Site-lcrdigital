@@ -166,9 +166,17 @@ $page_description = "LCR DIGITAL vous accompagne dans la création de site vitri
                         <div class="chooseus-image-header">
                             <i class="fa-solid fa-circle"></i>
                         </div>
-                        <div class="image-container chooseus-image">
+                            <div class="image-container chooseus-image">
                             <img src="./assets/images/dashboard.png" alt="" class="img-fluid">
                         </div>
+
+                        <div class="app-availability">
+                            <span>Disponible sur :</span>
+                            <img src="./assets/images/appstore.png" alt="App Store">
+                            <img src="./assets/images/playstore.avif" alt="Google Play">
+                            <img src="./assets/images/web.png" alt="Web">
+                        </div>
+
                         <div class="chooseus-image-footer">
                             <div class="icon-wrapper">
                                 <i class="fa-regular fa-square"></i>

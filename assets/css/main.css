@@ -2960,3 +2960,35 @@ textarea.error-border{
 .grid-spacer-y-100{
     --bg-gutter-y: 100px
 }
+
+
+            .whychooseus-banner{
+  min-height: 100vh; 
+}
+
+            .whychooseus-wrapper{
+  display: flex;
+}
+
+.chooseus-image-layout{
+  margin: auto 0;            
+  margin-left: auto;          
+  display: flex;
+  flex-direction: column;
+  align-items: center;         
+  justify-content: center;     
+}
+
+.app-availability{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 16px;
+    font-size: 14px;
+    opacity: 0.85;
+}
+
+.app-availability img{
+    height: 24px;
+    width: auto;
+}
