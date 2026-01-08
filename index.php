@@ -463,8 +463,7 @@ $page_description = "LCR DIGITAL, votre agence web" . city_phrase(" à ") . ", s
                     <div class="d-flex flex-md-row flex-column gspace-2">
 
                         <!-- SITE VITRINE -->
-                        <div class="card card-featured animate-box animated animate__animated"
-                             data-animate="animate__fadeIn">
+<div class="card card-featured client-rating animate-box animated animate__animated" data-animate="animate__fadeIn">                             data-animate="animate__fadeIn">
                             <h4>Création de site vitrine</h4>
                             <p>
                                 Présentez votre activité avec un site professionnel,
