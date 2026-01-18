@@ -12,6 +12,7 @@ $page_description_safe = function_exists("e")
 ?>
 <title><?= $page_title_safe ?></title>
 <meta name="description" content="<?= $page_description_safe ?>">
+<?php require __DIR__ . "/schema_localbusiness.php"; ?>
 <link rel="stylesheet" href="./assets/webfonts/font-family-inter.css">
 <link rel="stylesheet" href="./assets/css/vendor/bootstrap.min.css">
 <link rel="stylesheet" href="./assets/css/vendor/fontawesome.css">
