@@ -58,3 +58,12 @@ function route_with_city($base, $city_slug) {
 function city_text($fallback, $city) {
     return $city === "" ? $fallback : e($city);
 }
+
+function img_alt($description) {
+    global $city;
+    $alt = $description;
+    if ($city !== "") {
+        $alt .= " à " . $city;
+    }
+    return e($alt);
+}

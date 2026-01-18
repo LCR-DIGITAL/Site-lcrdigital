@@ -76,9 +76,40 @@ $page_description = "Vous souhaitez présenter vos produits sans e-commerce ? Op
                                 </div>
                                 <div class="col">
                                     <div class="image-container animate-box animated animate__animated" data-animate="animate__fadeIn">
-                                        <img src="./assets/images/catalogue.png" alt="" class="img-fluid">
+                                        <img src="./assets/images/catalogue.png" alt="<?= img_alt('Création site catalogue produits') ?>" class="img-fluid">
                                     </div>
                                 </div>
+                            </div>
+
+                            <h4>Le site catalogue : entre vitrine et e-commerce</h4>
+                            <div class="row row-cols-xl-2 row-cols-1 g-3">
+                                <div class="col">
+                                    <div class="d-flex flex-column gspace-2">
+                                        <p>
+                                            Le site catalogue<?= city_phrase(' à ') ?> est la solution idéale pour les entreprises qui veulent présenter leurs produits en détail sans gérer de vente en ligne. Contrairement à un e-commerce, il n'y a pas de panier ni de paiement : le visiteur consulte vos gammes et vous contacte pour obtenir un devis ou passer commande.
+                                        </p>
+                                        <p>
+                                            Cette formule convient parfaitement aux activités B2B, aux grossistes, aux fabricants ou aux artisans dont les tarifs dépendent de la quantité, de la personnalisation ou du client. Vous gardez la main sur la relation commerciale tout en offrant une vitrine professionnelle et complète.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="d-flex flex-column gspace-2">
+                                        <p>
+                                            Chez LCR DIGITAL, nous structurons votre catalogue avec des catégories claires, des fiches produits détaillées (photos, caractéristiques, options) et des filtres de recherche efficaces. L'objectif : que vos prospects trouvent rapidement ce qu'ils cherchent et vous contactent.
+                                        </p>
+                                        <p>
+                                            Le référencement naturel est intégré dès la conception. Chaque catégorie et chaque fiche produit est optimisée pour apparaître sur Google lorsque vos clients potentiels recherchent vos produits<?= city_phrase(' à ') ?> ou en Normandie.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h4>Pour quels professionnels ?</h4>
+                            <div>
+                                <p>
+                                    Le site catalogue s'adresse aux fabricants, grossistes, artisans et entreprises<?= city_phrase(' de ') ?> qui proposent une large gamme de produits ou de services avec des tarifs sur devis. Il convient également aux activités saisonnières ou aux professionnels qui souhaitent tester le digital avant de passer au e-commerce complet.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -136,7 +167,7 @@ $page_description = "Vous souhaitez présenter vos produits sans e-commerce ? Op
                         <p>Nos clients disposent d’une application mobile pour piloter leur site en autonomie : réalisations, contenus et données clés, où qu’ils soient.</p>
                         <div class="card card-chooseus highlight">
                             <div class="chooseus-icon">
-                                <img src="./assets/images/trophy-digital-marketing-marketing-sports-and-competition-award@4x1.webp" alt="" class="img-fluid">
+                                <img src="./assets/images/trophy-digital-marketing-marketing-sports-and-competition-award@4x1.webp" alt="<?= img_alt('Analytique du site') ?>" class="img-fluid">
                             </div>
                             <div class="d-flex flex-column gspace-2">
                                 <h5>Analytique du site</h5>
@@ -145,7 +176,7 @@ $page_description = "Vous souhaitez présenter vos produits sans e-commerce ? Op
                         </div>
                         <div class="card card-chooseus">
                             <div class="chooseus-icon">
-                                <img src="./assets/images/keyword-digital-marketing-seo-magnifier-research-marketing@4x1.webp" alt="" class="img-fluid">
+                                <img src="./assets/images/keyword-digital-marketing-seo-magnifier-research-marketing@4x1.webp" alt="<?= img_alt('Autonomie éditoriale') ?>" class="img-fluid">
                             </div>
                             <div class="d-flex flex-column gspace-2">
                                 <h5>Autonomie éditoriale</h5>
@@ -154,7 +185,7 @@ $page_description = "Vous souhaitez présenter vos produits sans e-commerce ? Op
                         </div>
                         <div class="card card-chooseus">
                             <div class="chooseus-icon">
-                                <img src="./assets/images/bar-chart-line-graph-setting-monitor-analysis-statistics@4x1.webp" alt="" class="img-fluid">
+                                <img src="./assets/images/bar-chart-line-graph-setting-monitor-analysis-statistics@4x1.webp" alt="<?= img_alt('Pilotage commercial') ?>" class="img-fluid">
                             </div>
                             <div class="d-flex flex-column gspace-2">
                                 <h5>Pilotage commercial</h5>
@@ -167,7 +198,7 @@ $page_description = "Vous souhaitez présenter vos produits sans e-commerce ? Op
                             <i class="fa-solid fa-circle"></i>
                         </div>
                             <div class="image-container chooseus-image">
-                            <img src="./assets/images/dashboard.png" alt="" class="img-fluid">
+                            <img src="./assets/images/dashboard.png" alt="<?= img_alt('Dashboard application client LCR Digital') ?>" class="img-fluid">
                         </div>
 
                         <div class="app-availability">

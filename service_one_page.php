@@ -76,9 +76,40 @@ $page_description = "Besoin d’un site One Page" . city_phrase(" à ") . " ? LC
                                 </div>
                                 <div class="col">
                                     <div class="image-container animate-box animated animate__animated" data-animate="animate__fadeIn">
-                                        <img src="./assets/images/onepage.png" alt="" class="img-fluid">
+                                        <img src="./assets/images/onepage.png" alt="<?= img_alt('Création site one page landing page') ?>" class="img-fluid">
                                     </div>
                                 </div>
+                            </div>
+
+                            <h4>Qu'est-ce qu'un site One Page ?</h4>
+                            <div class="row row-cols-xl-2 row-cols-1 g-3">
+                                <div class="col">
+                                    <div class="d-flex flex-column gspace-2">
+                                        <p>
+                                            Un site One Page (ou landing page) concentre toutes les informations essentielles sur une seule page. Ce format est particulièrement efficace pour les campagnes marketing, les lancements de produits ou les offres spéciales<?= city_phrase(' à ') ?>. L'objectif est simple : guider le visiteur vers une action précise (demande de devis, inscription, achat).
+                                        </p>
+                                        <p>
+                                            Contrairement à un site vitrine classique, le One Page mise sur un parcours linéaire et un message unique. Chaque section est pensée pour éliminer les distractions et renforcer la confiance : accroche percutante, preuves sociales, bénéfices clairs et appel à l'action visible.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="d-flex flex-column gspace-2">
+                                        <p>
+                                            Le format One Page est aussi idéal pour tester une nouvelle offre avant d'investir dans un site complet. Grâce à sa structure simple, il peut être mis en ligne rapidement et optimisé en fonction des premiers retours. C'est un outil agile pour valider un concept et générer des leads qualifiés.
+                                        </p>
+                                        <p>
+                                            Chez LCR DIGITAL, nous concevons des landing pages orientées conversion : design épuré, chargement rapide, formulaires optimisés et tracking des performances. Chaque élément est testé pour maximiser votre taux de transformation<?= city_phrase(' à ') ?>.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h4>Pour quels projets choisir un One Page ?</h4>
+                            <div>
+                                <p>
+                                    Le site One Page est recommandé pour les entrepreneurs, freelances et PME<?= city_phrase(' de ') ?> qui souhaitent promouvoir une offre spécifique, collecter des contacts ou valider une idée rapidement. Il s'adapte parfaitement aux campagnes publicitaires (Google Ads, Facebook Ads) où le trafic doit être converti efficacement sur une page unique.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -136,7 +167,7 @@ $page_description = "Besoin d’un site One Page" . city_phrase(" à ") . " ? LC
                         <p>Nos clients disposent d’une application mobile pour piloter leur site en autonomie : réalisations, contenus et données clés, où qu’ils soient.</p>
                         <div class="card card-chooseus highlight">
                             <div class="chooseus-icon">
-                                <img src="./assets/images/trophy-digital-marketing-marketing-sports-and-competition-award@4x1.webp" alt="" class="img-fluid">
+                                <img src="./assets/images/trophy-digital-marketing-marketing-sports-and-competition-award@4x1.webp" alt="<?= img_alt('Analytique du site') ?>" class="img-fluid">
                             </div>
                             <div class="d-flex flex-column gspace-2">
                                 <h5>Analytique du site</h5>
@@ -145,7 +176,7 @@ $page_description = "Besoin d’un site One Page" . city_phrase(" à ") . " ? LC
                         </div>
                         <div class="card card-chooseus">
                             <div class="chooseus-icon">
-                                <img src="./assets/images/keyword-digital-marketing-seo-magnifier-research-marketing@4x1.webp" alt="" class="img-fluid">
+                                <img src="./assets/images/keyword-digital-marketing-seo-magnifier-research-marketing@4x1.webp" alt="<?= img_alt('Autonomie éditoriale') ?>" class="img-fluid">
                             </div>
                             <div class="d-flex flex-column gspace-2">
                                 <h5>Autonomie éditoriale</h5>
@@ -154,7 +185,7 @@ $page_description = "Besoin d’un site One Page" . city_phrase(" à ") . " ? LC
                         </div>
                         <div class="card card-chooseus">
                             <div class="chooseus-icon">
-                                <img src="./assets/images/bar-chart-line-graph-setting-monitor-analysis-statistics@4x1.webp" alt="" class="img-fluid">
+                                <img src="./assets/images/bar-chart-line-graph-setting-monitor-analysis-statistics@4x1.webp" alt="<?= img_alt('Pilotage commercial') ?>" class="img-fluid">
                             </div>
                             <div class="d-flex flex-column gspace-2">
                                 <h5>Pilotage commercial</h5>
@@ -167,7 +198,7 @@ $page_description = "Besoin d’un site One Page" . city_phrase(" à ") . " ? LC
                             <i class="fa-solid fa-circle"></i>
                         </div>
                             <div class="image-container chooseus-image">
-                            <img src="./assets/images/dashboard.png" alt="" class="img-fluid">
+                            <img src="./assets/images/dashboard.png" alt="<?= img_alt('Dashboard application client LCR Digital') ?>" class="img-fluid">
                         </div>
 
                         <div class="app-availability">

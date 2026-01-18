@@ -76,9 +76,40 @@ $page_description = "Vous avez un projet spécifique ? LCR DIGITAL propose du d�
                                 </div>
                                 <div class="col">
                                     <div class="image-container animate-box animated animate__animated" data-animate="animate__fadeIn">
-                                        <img src="./assets/images/surmesure.jpg" alt="" class="img-fluid">
+                                        <img src="./assets/images/surmesure.jpg" alt="<?= img_alt('Développement web sur mesure personnalisé') ?>" class="img-fluid">
                                     </div>
                                 </div>
+                            </div>
+
+                            <h4>Le développement sur mesure, c'est quoi ?</h4>
+                            <div class="row row-cols-xl-2 row-cols-1 g-3">
+                                <div class="col">
+                                    <div class="d-flex flex-column gspace-2">
+                                        <p>
+                                            Le développement web sur mesure<?= city_phrase(' à ') ?> consiste à créer des fonctionnalités spécifiques qui n'existent pas dans les solutions standards. Plutôt que d'adapter votre activité à un outil générique, nous concevons une solution qui s'adapte parfaitement à vos processus métier et à vos besoins uniques.
+                                        </p>
+                                        <p>
+                                            Cela peut inclure : des tableaux de bord personnalisés, des systèmes de réservation sur mesure, des connecteurs vers vos logiciels existants (CRM, ERP, comptabilité), des automatisations de tâches répétitives ou des espaces clients sécurisés avec des fonctionnalités avancées.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="d-flex flex-column gspace-2">
+                                        <p>
+                                            Chez LCR DIGITAL, nous analysons vos processus actuels pour identifier les points de friction et les opportunités d'amélioration. Nous concevons ensuite une solution technique adaptée, en utilisant des technologies modernes et pérennes qui garantissent performance, sécurité et évolutivité.
+                                        </p>
+                                        <p>
+                                            Chaque projet sur mesure est documenté et livré avec une formation. Nous assurons la maintenance et les évolutions pour que votre outil reste performant et adapté à la croissance de votre activité<?= city_phrase(' à ') ?>.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h4>Exemples de projets sur mesure</h4>
+                            <div>
+                                <p>
+                                    Le développement personnalisé s'adresse aux entreprises<?= city_phrase(' de ') ?> qui ont des besoins spécifiques : gestion de planning et de ressources, portails clients avec accès sécurisé, systèmes de devis et facturation automatisés, intégrations avec des API tierces, outils de reporting sur mesure ou applications métier dédiées. Si votre besoin ne trouve pas de réponse dans les solutions existantes, nous le créons pour vous.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -136,7 +167,7 @@ $page_description = "Vous avez un projet spécifique ? LCR DIGITAL propose du d�
                         <p>Nos clients disposent d’une application mobile pour piloter leur site en autonomie : réalisations, contenus et données clés, où qu’ils soient.</p>
                         <div class="card card-chooseus highlight">
                             <div class="chooseus-icon">
-                                <img src="./assets/images/trophy-digital-marketing-marketing-sports-and-competition-award@4x1.webp" alt="" class="img-fluid">
+                                <img src="./assets/images/trophy-digital-marketing-marketing-sports-and-competition-award@4x1.webp" alt="<?= img_alt('Analytique du site') ?>" class="img-fluid">
                             </div>
                             <div class="d-flex flex-column gspace-2">
                                 <h5>Analytique du site</h5>
@@ -145,7 +176,7 @@ $page_description = "Vous avez un projet spécifique ? LCR DIGITAL propose du d�
                         </div>
                         <div class="card card-chooseus">
                             <div class="chooseus-icon">
-                                <img src="./assets/images/keyword-digital-marketing-seo-magnifier-research-marketing@4x1.webp" alt="" class="img-fluid">
+                                <img src="./assets/images/keyword-digital-marketing-seo-magnifier-research-marketing@4x1.webp" alt="<?= img_alt('Autonomie éditoriale') ?>" class="img-fluid">
                             </div>
                             <div class="d-flex flex-column gspace-2">
                                 <h5>Autonomie éditoriale</h5>
@@ -154,7 +185,7 @@ $page_description = "Vous avez un projet spécifique ? LCR DIGITAL propose du d�
                         </div>
                         <div class="card card-chooseus">
                             <div class="chooseus-icon">
-                                <img src="./assets/images/bar-chart-line-graph-setting-monitor-analysis-statistics@4x1.webp" alt="" class="img-fluid">
+                                <img src="./assets/images/bar-chart-line-graph-setting-monitor-analysis-statistics@4x1.webp" alt="<?= img_alt('Pilotage commercial') ?>" class="img-fluid">
                             </div>
                             <div class="d-flex flex-column gspace-2">
                                 <h5>Pilotage commercial</h5>
@@ -167,7 +198,7 @@ $page_description = "Vous avez un projet spécifique ? LCR DIGITAL propose du d�
                             <i class="fa-solid fa-circle"></i>
                         </div>
                             <div class="image-container chooseus-image">
-                            <img src="./assets/images/dashboard.png" alt="" class="img-fluid">
+                            <img src="./assets/images/dashboard.png" alt="<?= img_alt('Dashboard application client LCR Digital') ?>" class="img-fluid">
                         </div>
 
                         <div class="app-availability">

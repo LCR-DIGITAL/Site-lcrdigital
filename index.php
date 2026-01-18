@@ -79,7 +79,7 @@ $page_description = "LCR DIGITAL, votre agence web" . city_phrase(" à ") . ", s
                                 <p class="title">ans d'expérience</p>
                             </div>
                             <div class="image-container about-img">
-                                <img src="./assets/images/about.png" alt="" class="img-fluid">
+                                <img src="./assets/images/about.png" alt="<?= img_alt('Agence web LCR Digital') ?>" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -129,7 +129,7 @@ $page_description = "LCR DIGITAL, votre agence web" . city_phrase(" à ") . ", s
                         <div class="card card-service-wrapper animate-box animated animate__animated" data-animate="animate__fadeIn">
                             <div class="card card-service">
                                 <div>
-                                <img src="./assets/images/S4.webp" alt="" class="img-fluid">
+                                <img src="./assets/images/S4.webp" alt="<?= img_alt('Création site one page') ?>" class="img-fluid">
                                 </div>
                                 <h4>One Page</h4>
                                 <p>Une landing page claire et rapide pour capter des leads et valider votre offre.</p>
@@ -143,7 +143,7 @@ $page_description = "LCR DIGITAL, votre agence web" . city_phrase(" à ") . ", s
                         <div class="card card-service-wrapper animate-box animated animate__animated" data-animate="animate__fadeIn">
                             <div class="card card-service highlight-service">
                                 <div>
-                                <img src="./assets/images/S5.webp" alt="" class="img-fluid">
+                                <img src="./assets/images/S5.webp" alt="<?= img_alt('Création site vitrine') ?>" class="img-fluid">
                                 </div>
                                 <h4>Site vitrine</h4>
                                 <p>Présentez votre activité avec un site professionnel, rassurant et optimisé pour le local.</p>
@@ -157,7 +157,7 @@ $page_description = "LCR DIGITAL, votre agence web" . city_phrase(" à ") . ", s
                         <div class="card card-service-wrapper animate-box animated animate__animated" data-animate="animate__fadeIn">
                             <div class="card card-service">
                                 <div>
-                                <img src="./assets/images/S1.webp" alt="" class="img-fluid">
+                                <img src="./assets/images/S1.webp" alt="<?= img_alt('Création site catalogue') ?>" class="img-fluid">
                                 </div>
                                 <h4>Site catalogue</h4>
                                 <p>Exposez vos produits et services avec des fiches claires et une navigation fluide.</p>
@@ -171,7 +171,7 @@ $page_description = "LCR DIGITAL, votre agence web" . city_phrase(" à ") . ", s
                         <div class="card card-service-wrapper animate-box animated animate__animated" data-animate="animate__fadeIn">
                             <div class="card card-service">
                                 <div>
-                                <img src="./assets/images/S3.webp" alt="" class="img-fluid">
+                                <img src="./assets/images/S3.webp" alt="<?= img_alt('Création site e-commerce') ?>" class="img-fluid">
                                 </div>
                                 <h4>Site E-commerce</h4>
                                 <p>Boutique en ligne prête à vendre : tunnel d’achat optimisé et paiements sécurisés.</p>
@@ -185,7 +185,7 @@ $page_description = "LCR DIGITAL, votre agence web" . city_phrase(" à ") . ", s
                         <div class="card card-service-wrapper animate-box animated animate__animated" data-animate="animate__fadeIn">
                             <div class="card card-service">
                                 <div>
-                                <img src="./assets/images/S6.webp" alt="" class="img-fluid">
+                                <img src="./assets/images/S6.webp" alt="<?= img_alt('Création application mobile') ?>" class="img-fluid">
                                 </div>
                                 <h4>Application Mobile</h4>
                                 <p>Applications iOS/Android pour fidéliser et simplifier l’expérience client.</p>
@@ -199,7 +199,7 @@ $page_description = "LCR DIGITAL, votre agence web" . city_phrase(" à ") . ", s
                         <div class="card card-service-wrapper animate-box animated animate__animated" data-animate="animate__fadeIn">
                             <div class="card card-service">
                                 <div>
-                                <img src="./assets/images/S4.webp" alt="" class="img-fluid">
+                                <img src="./assets/images/S4.webp" alt="<?= img_alt('Développement web sur mesure') ?>" class="img-fluid">
                                 </div>
                                 <h4>Développement personnalisé</h4>
                                 <p>Fonctionnalités sur mesure, intégrations métier et automatisations adaptées.</p>
@@ -224,7 +224,7 @@ $page_description = "LCR DIGITAL, votre agence web" . city_phrase(" à ") . ", s
                         <p>Nos clients disposent d’une application mobile pour piloter leur site en autonomie : réalisations, contenus et données clés, où qu’ils soient.</p>
                         <div class="card card-chooseus highlight">
                             <div class="chooseus-icon">
-                                <img src="./assets/images/trophy-digital-marketing-marketing-sports-and-competition-award@4x1.webp" alt="" class="img-fluid">
+                                <img src="./assets/images/trophy-digital-marketing-marketing-sports-and-competition-award@4x1.webp" alt="<?= img_alt('Analytique du site') ?>" class="img-fluid">
                             </div>
                             <div class="d-flex flex-column gspace-2">
                                 <h5>Analytique du site</h5>
@@ -233,7 +233,7 @@ $page_description = "LCR DIGITAL, votre agence web" . city_phrase(" à ") . ", s
                         </div>
                         <div class="card card-chooseus">
                             <div class="chooseus-icon">
-                                <img src="./assets/images/keyword-digital-marketing-seo-magnifier-research-marketing@4x1.webp" alt="" class="img-fluid">
+                                <img src="./assets/images/keyword-digital-marketing-seo-magnifier-research-marketing@4x1.webp" alt="<?= img_alt('Autonomie éditoriale') ?>" class="img-fluid">
                             </div>
                             <div class="d-flex flex-column gspace-2">
                                 <h5>Autonomie éditoriale</h5>
@@ -242,7 +242,7 @@ $page_description = "LCR DIGITAL, votre agence web" . city_phrase(" à ") . ", s
                         </div>
                         <div class="card card-chooseus">
                             <div class="chooseus-icon">
-                                <img src="./assets/images/bar-chart-line-graph-setting-monitor-analysis-statistics@4x1.webp" alt="" class="img-fluid">
+                                <img src="./assets/images/bar-chart-line-graph-setting-monitor-analysis-statistics@4x1.webp" alt="<?= img_alt('Pilotage commercial') ?>" class="img-fluid">
                             </div>
                             <div class="d-flex flex-column gspace-2">
                                 <h5>Pilotage commercial</h5>
@@ -255,7 +255,7 @@ $page_description = "LCR DIGITAL, votre agence web" . city_phrase(" à ") . ", s
                             <i class="fa-solid fa-circle"></i>
                         </div>
                             <div class="image-container chooseus-image">
-                            <img src="./assets/images/dashboard.png" alt="" class="img-fluid">
+                            <img src="./assets/images/dashboard.png" alt="<?= img_alt('Dashboard application client LCR Digital') ?>" class="img-fluid">
                         </div>
 
                         <div class="app-availability">
@@ -309,7 +309,7 @@ $page_description = "LCR DIGITAL, votre agence web" . city_phrase(" à ") . ", s
                         <div class="portfolio-header">
                             <div class="portfolio-image-wrapper">
                                 <div class="image-container portfolio-image">
-                                    <img src="./assets/images/lapouge-paysage.png" alt="" class="img-fluid">
+                                    <img src="./assets/images/lapouge-paysage.png" alt="<?= img_alt('Site vitrine Lapouge Paysage') ?>" class="img-fluid">
                                 </div>
                             </div>
                             <h4 class="number">01</h4>
@@ -359,7 +359,7 @@ $page_description = "LCR DIGITAL, votre agence web" . city_phrase(" à ") . ", s
                         <div class="portfolio-header">
                             <div class="portfolio-image-wrapper">
                                 <div class="image-container portfolio-image">
-                                    <img src="./assets/images/lcr-digital.png" alt="" class="img-fluid">
+                                    <img src="./assets/images/lcr-digital.png" alt="<?= img_alt('Site vitrine LCR Digital') ?>" class="img-fluid">
                                 </div>
                             </div>
                             <h4 class="number">02</h4>

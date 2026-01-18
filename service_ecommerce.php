@@ -76,9 +76,40 @@ $page_description = "Lancez votre boutique en ligne" . city_phrase(" à ") . " a
                                 </div>
                                 <div class="col">
                                     <div class="image-container animate-box animated animate__animated" data-animate="animate__fadeIn">
-                                        <img src="./assets/images/ecommerce.png" alt="" class="img-fluid">
+                                        <img src="./assets/images/ecommerce.png" alt="<?= img_alt('Création site e-commerce boutique en ligne') ?>" class="img-fluid">
                                     </div>
                                 </div>
+                            </div>
+
+                            <h4>Une boutique en ligne pensée pour vendre</h4>
+                            <div class="row row-cols-xl-2 row-cols-1 g-3">
+                                <div class="col">
+                                    <div class="d-flex flex-column gspace-2">
+                                        <p>
+                                            Créer un site e-commerce<?= city_phrase(' à ') ?> ne se limite pas à afficher des produits. Chez LCR DIGITAL, nous concevons des boutiques en ligne où chaque détail compte : fiches produits optimisées, navigation fluide, tunnel d'achat simplifié et moyens de paiement sécurisés (Stripe, PayPal, CB).
+                                        </p>
+                                        <p>
+                                            L'expérience utilisateur est au cœur de notre approche. Un visiteur doit pouvoir trouver son produit, comprendre l'offre et finaliser sa commande en quelques clics. Nous travaillons les visuels, les descriptions et les appels à l'action pour maximiser votre taux de conversion.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="d-flex flex-column gspace-2">
+                                        <p>
+                                            Le référencement naturel (SEO) est intégré dès la conception : structure de catégories optimisée, balises produits, temps de chargement rapide. Votre boutique sera visible sur Google pour les recherches liées à vos produits<?= city_phrase(' à ') ?> et en Normandie.
+                                        </p>
+                                        <p>
+                                            Nous vous formons à la gestion quotidienne de votre boutique : ajout de produits, gestion des stocks, suivi des commandes et analyse des ventes. Vous restez autonome tout en bénéficiant de notre support technique.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h4>Pour qui est fait le e-commerce ?</h4>
+                            <div>
+                                <p>
+                                    Le site e-commerce s'adresse aux commerçants, artisans et entreprises<?= city_phrase(' de ') ?> qui souhaitent vendre leurs produits en ligne, élargir leur zone de chalandise et générer du chiffre d'affaires 24h/24. Que vous vendiez des produits physiques, des services ou des prestations, nous adaptons la solution à votre modèle économique.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -136,7 +167,7 @@ $page_description = "Lancez votre boutique en ligne" . city_phrase(" à ") . " a
                         <p>Nos clients disposent d’une application mobile pour piloter leur site en autonomie : réalisations, contenus et données clés, où qu’ils soient.</p>
                         <div class="card card-chooseus highlight">
                             <div class="chooseus-icon">
-                                <img src="./assets/images/trophy-digital-marketing-marketing-sports-and-competition-award@4x1.webp" alt="" class="img-fluid">
+                                <img src="./assets/images/trophy-digital-marketing-marketing-sports-and-competition-award@4x1.webp" alt="<?= img_alt('Analytique du site') ?>" class="img-fluid">
                             </div>
                             <div class="d-flex flex-column gspace-2">
                                 <h5>Analytique du site</h5>
@@ -145,7 +176,7 @@ $page_description = "Lancez votre boutique en ligne" . city_phrase(" à ") . " a
                         </div>
                         <div class="card card-chooseus">
                             <div class="chooseus-icon">
-                                <img src="./assets/images/keyword-digital-marketing-seo-magnifier-research-marketing@4x1.webp" alt="" class="img-fluid">
+                                <img src="./assets/images/keyword-digital-marketing-seo-magnifier-research-marketing@4x1.webp" alt="<?= img_alt('Autonomie éditoriale') ?>" class="img-fluid">
                             </div>
                             <div class="d-flex flex-column gspace-2">
                                 <h5>Autonomie éditoriale</h5>
@@ -154,7 +185,7 @@ $page_description = "Lancez votre boutique en ligne" . city_phrase(" à ") . " a
                         </div>
                         <div class="card card-chooseus">
                             <div class="chooseus-icon">
-                                <img src="./assets/images/bar-chart-line-graph-setting-monitor-analysis-statistics@4x1.webp" alt="" class="img-fluid">
+                                <img src="./assets/images/bar-chart-line-graph-setting-monitor-analysis-statistics@4x1.webp" alt="<?= img_alt('Pilotage commercial') ?>" class="img-fluid">
                             </div>
                             <div class="d-flex flex-column gspace-2">
                                 <h5>Pilotage commercial</h5>
@@ -167,7 +198,7 @@ $page_description = "Lancez votre boutique en ligne" . city_phrase(" à ") . " a
                             <i class="fa-solid fa-circle"></i>
                         </div>
                             <div class="image-container chooseus-image">
-                            <img src="./assets/images/dashboard.png" alt="" class="img-fluid">
+                            <img src="./assets/images/dashboard.png" alt="<?= img_alt('Dashboard application client LCR Digital') ?>" class="img-fluid">
                         </div>
 
                         <div class="app-availability">

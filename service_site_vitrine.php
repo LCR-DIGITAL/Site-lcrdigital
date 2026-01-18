@@ -76,9 +76,40 @@ $page_description = "LCR DIGITAL vous accompagne dans la création de site vitri
                                 </div>
                                 <div class="col">
                                     <div class="image-container animate-box animated animate__animated" data-animate="animate__fadeIn">
-                                        <img src="./assets/images/vitrine.png" alt="" class="img-fluid">
+                                        <img src="./assets/images/vitrine.png" alt="<?= img_alt('Création site vitrine professionnel') ?>" class="img-fluid">
                                     </div>
                                 </div>
+                            </div>
+
+                            <h4>Notre approche</h4>
+                            <div class="row row-cols-xl-2 row-cols-1 g-3">
+                                <div class="col">
+                                    <div class="d-flex flex-column gspace-2">
+                                        <p>
+                                            Chez LCR DIGITAL, nous concevons des sites vitrines qui vont au-delà de la simple présence en ligne. Chaque projet commence par une analyse de votre activité, de vos concurrents et de votre cible<?= city_phrase(' à ') ?>. Cette étape nous permet de définir une structure de site claire et un message percutant.
+                                        </p>
+                                        <p>
+                                            Le design est pensé pour refléter votre identité tout en respectant les standards d'accessibilité et d'ergonomie. Navigation intuitive, temps de chargement optimisé, responsive design : nous veillons à ce que chaque visiteur trouve rapidement l'information qu'il recherche.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="d-flex flex-column gspace-2">
+                                        <p>
+                                            Le référencement naturel (SEO) est intégré dès la conception. Balises optimisées, contenu structuré, maillage interne : votre site vitrine<?= city_phrase(' à ') ?> sera visible sur les requêtes locales et sectorielles qui comptent pour votre activité.
+                                        </p>
+                                        <p>
+                                            Après la mise en ligne, nous restons disponibles pour les mises à jour, l'ajout de nouvelles pages ou l'évolution de votre site. Nos clients bénéficient également d'une application dédiée pour gérer leurs contenus en toute autonomie.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h4>À qui s'adresse un site vitrine ?</h4>
+                            <div>
+                                <p>
+                                    Le site vitrine est la solution idéale pour les artisans, professions libérales, TPE et PME<?= city_phrase(' de ') ?> qui souhaitent présenter leur activité, leurs services et leurs coordonnées de manière professionnelle. Il convient particulièrement aux entreprises qui n'ont pas besoin de vendre en ligne mais qui veulent être trouvées facilement sur Google et rassurer leurs prospects avant un premier contact.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -136,7 +167,7 @@ $page_description = "LCR DIGITAL vous accompagne dans la création de site vitri
                         <p>Nos clients disposent d’une application mobile pour piloter leur site en autonomie : réalisations, contenus et données clés, où qu’ils soient.</p>
                         <div class="card card-chooseus highlight">
                             <div class="chooseus-icon">
-                                <img src="./assets/images/trophy-digital-marketing-marketing-sports-and-competition-award@4x1.webp" alt="" class="img-fluid">
+                                <img src="./assets/images/trophy-digital-marketing-marketing-sports-and-competition-award@4x1.webp" alt="<?= img_alt('Analytique du site') ?>" class="img-fluid">
                             </div>
                             <div class="d-flex flex-column gspace-2">
                                 <h5>Analytique du site</h5>
@@ -145,7 +176,7 @@ $page_description = "LCR DIGITAL vous accompagne dans la création de site vitri
                         </div>
                         <div class="card card-chooseus">
                             <div class="chooseus-icon">
-                                <img src="./assets/images/keyword-digital-marketing-seo-magnifier-research-marketing@4x1.webp" alt="" class="img-fluid">
+                                <img src="./assets/images/keyword-digital-marketing-seo-magnifier-research-marketing@4x1.webp" alt="<?= img_alt('Autonomie éditoriale') ?>" class="img-fluid">
                             </div>
                             <div class="d-flex flex-column gspace-2">
                                 <h5>Autonomie éditoriale</h5>
@@ -154,7 +185,7 @@ $page_description = "LCR DIGITAL vous accompagne dans la création de site vitri
                         </div>
                         <div class="card card-chooseus">
                             <div class="chooseus-icon">
-                                <img src="./assets/images/bar-chart-line-graph-setting-monitor-analysis-statistics@4x1.webp" alt="" class="img-fluid">
+                                <img src="./assets/images/bar-chart-line-graph-setting-monitor-analysis-statistics@4x1.webp" alt="<?= img_alt('Pilotage commercial') ?>" class="img-fluid">
                             </div>
                             <div class="d-flex flex-column gspace-2">
                                 <h5>Pilotage commercial</h5>
@@ -167,7 +198,7 @@ $page_description = "LCR DIGITAL vous accompagne dans la création de site vitri
                             <i class="fa-solid fa-circle"></i>
                         </div>
                             <div class="image-container chooseus-image">
-                            <img src="./assets/images/dashboard.png" alt="" class="img-fluid">
+                            <img src="./assets/images/dashboard.png" alt="<?= img_alt('Dashboard application client LCR Digital') ?>" class="img-fluid">
                         </div>
 
                         <div class="app-availability">

@@ -76,9 +76,40 @@ $page_description = "LCR DIGITAL conçoit des applications mobiles iOS et Androi
                                 </div>
                                 <div class="col">
                                     <div class="image-container animate-box animated animate__animated" data-animate="animate__fadeIn">
-                                        <img src="./assets/images/mobile.jpg" alt="" class="img-fluid">
+                                        <img src="./assets/images/mobile.jpg" alt="<?= img_alt('Développement application mobile iOS Android') ?>" class="img-fluid">
                                     </div>
                                 </div>
+                            </div>
+
+                            <h4>Pourquoi créer une application mobile ?</h4>
+                            <div class="row row-cols-xl-2 row-cols-1 g-3">
+                                <div class="col">
+                                    <div class="d-flex flex-column gspace-2">
+                                        <p>
+                                            Une application mobile<?= city_phrase(' à ') ?> vous permet de créer un lien direct et permanent avec vos clients. Présente sur leur smartphone, elle offre un accès instantané à vos services, vos produits ou vos contenus. Les notifications push vous permettent de communiquer en temps réel : promotions, nouveautés, rappels.
+                                        </p>
+                                        <p>
+                                            Contrairement à un site web, l'application offre une expérience native optimisée pour le mobile : navigation fluide, temps de chargement réduit, fonctionnalités avancées (géolocalisation, appareil photo, paiement mobile). Elle renforce votre image de marque et vous démarque de la concurrence.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="d-flex flex-column gspace-2">
+                                        <p>
+                                            Chez LCR DIGITAL, nous développons des applications iOS et Android sur mesure. Nous utilisons des technologies modernes (React Native, Flutter) qui permettent de créer une seule base de code pour les deux plateformes, réduisant ainsi les coûts et les délais de développement.
+                                        </p>
+                                        <p>
+                                            De la conception UX/UI à la publication sur l'App Store et Google Play, nous vous accompagnons à chaque étape. Nous assurons également la maintenance, les mises à jour et l'évolution de votre application selon vos besoins.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h4>Pour quels usages ?</h4>
+                            <div>
+                                <p>
+                                    L'application mobile s'adresse aux entreprises<?= city_phrase(' de ') ?> qui souhaitent fidéliser leurs clients, proposer un service de réservation ou de commande, gérer un programme de fidélité ou simplement offrir une expérience utilisateur premium. Elle convient aux commerces, restaurants, prestataires de services, associations ou toute activité nécessitant un contact régulier avec sa clientèle.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -136,7 +167,7 @@ $page_description = "LCR DIGITAL conçoit des applications mobiles iOS et Androi
                         <p>Nos clients disposent d’une application mobile pour piloter leur site en autonomie : réalisations, contenus et données clés, où qu’ils soient.</p>
                         <div class="card card-chooseus highlight">
                             <div class="chooseus-icon">
-                                <img src="./assets/images/trophy-digital-marketing-marketing-sports-and-competition-award@4x1.webp" alt="" class="img-fluid">
+                                <img src="./assets/images/trophy-digital-marketing-marketing-sports-and-competition-award@4x1.webp" alt="<?= img_alt('Analytique du site') ?>" class="img-fluid">
                             </div>
                             <div class="d-flex flex-column gspace-2">
                                 <h5>Analytique du site</h5>
@@ -145,7 +176,7 @@ $page_description = "LCR DIGITAL conçoit des applications mobiles iOS et Androi
                         </div>
                         <div class="card card-chooseus">
                             <div class="chooseus-icon">
-                                <img src="./assets/images/keyword-digital-marketing-seo-magnifier-research-marketing@4x1.webp" alt="" class="img-fluid">
+                                <img src="./assets/images/keyword-digital-marketing-seo-magnifier-research-marketing@4x1.webp" alt="<?= img_alt('Autonomie éditoriale') ?>" class="img-fluid">
                             </div>
                             <div class="d-flex flex-column gspace-2">
                                 <h5>Autonomie éditoriale</h5>
@@ -154,7 +185,7 @@ $page_description = "LCR DIGITAL conçoit des applications mobiles iOS et Androi
                         </div>
                         <div class="card card-chooseus">
                             <div class="chooseus-icon">
-                                <img src="./assets/images/bar-chart-line-graph-setting-monitor-analysis-statistics@4x1.webp" alt="" class="img-fluid">
+                                <img src="./assets/images/bar-chart-line-graph-setting-monitor-analysis-statistics@4x1.webp" alt="<?= img_alt('Pilotage commercial') ?>" class="img-fluid">
                             </div>
                             <div class="d-flex flex-column gspace-2">
                                 <h5>Pilotage commercial</h5>
@@ -167,7 +198,7 @@ $page_description = "LCR DIGITAL conçoit des applications mobiles iOS et Androi
                             <i class="fa-solid fa-circle"></i>
                         </div>
                             <div class="image-container chooseus-image">
-                            <img src="./assets/images/dashboard.png" alt="" class="img-fluid">
+                            <img src="./assets/images/dashboard.png" alt="<?= img_alt('Dashboard application client LCR Digital') ?>" class="img-fluid">
                         </div>
 
                         <div class="app-availability">

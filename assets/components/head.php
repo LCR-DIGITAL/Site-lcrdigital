@@ -12,6 +12,19 @@ $page_description_safe = function_exists("e")
 ?>
 <title><?= $page_title_safe ?></title>
 <meta name="description" content="<?= $page_description_safe ?>">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://lcr-digital.fr<?= htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES, 'UTF-8') ?>">
+<meta property="og:title" content="<?= $page_title_safe ?>">
+<meta property="og:description" content="<?= $page_description_safe ?>">
+<meta property="og:image" content="https://lcr-digital.fr/assets/images/lcr-digital-logo.png">
+<meta property="og:url" content="https://lcr-digital.fr<?= htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES, 'UTF-8') ?>">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="LCR DIGITAL">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="<?= $page_title_safe ?>">
+<meta name="twitter:description" content="<?= $page_description_safe ?>">
+<meta name="twitter:image" content="https://lcr-digital.fr/assets/images/lcr-digital-logo.png">
 <?php require __DIR__ . "/schema_localbusiness.php"; ?>
 <link rel="stylesheet" href="./assets/webfonts/font-family-inter.css">
 <link rel="stylesheet" href="./assets/css/vendor/bootstrap.min.css">
