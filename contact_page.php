@@ -11,7 +11,7 @@ use PHPMailer\PHPMailer\Exception;
    CONFIG SMTP HOSTINGER
 ========================= */
 $SMTP_HOST = $_ENV['SMTP_HOST'] ?? '';
-$SMTP_PORT = $_ENV['SMTP_PORT'] ?? 587;
+$SMTP_PORT = $_ENV['SMTP_PORT'] ?? 465;
 $SMTP_USER = $_ENV['SMTP_USER'] ?? '';
 $SMTP_PASS = $_ENV['SMTP_PASSWORD'] ?? '';
 
@@ -96,7 +96,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $mail->SMTPAuth   = true;
             $mail->Username   = $SMTP_USER;
             $mail->Password   = $SMTP_PASS;
-            $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+            $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
             $mail->Port       = (int) $SMTP_PORT;
 
             $mail->CharSet = 'UTF-8';
@@ -105,19 +105,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $mail->addAddress($MAIL_TO);
             $mail->addReplyTo($email, "$first_name $last_name");
 
-            $mail->isHTML(true);
+            $mail->isHTML(false);
             $mail->Subject = $subject;
 
-            $safe_message = nl2br(htmlspecialchars($message, ENT_QUOTES, 'UTF-8'));
-
-            $mail->Body = "
-                <h3>Nouveau message depuis le site</h3>
-                <p><strong>Nom :</strong> {$first_name} {$last_name}</p>
-                <p><strong>Email :</strong> {$email}</p>
-                <p><strong>Téléphone :</strong> {$phone}</p>
-                <hr>
-                <p>{$safe_message}</p>
-            ";
+            $mail->Body = "Nouveau message depuis le site LCR DIGITAL\n\n"
+                        . "Nom : $first_name $last_name\n"
+                        . "Email : $email\n"
+                        . "Téléphone : $phone\n\n"
+                        . "Message :\n$message";
 
             $mail->send();
 
